@@ -1,3 +1,16 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+#main-header .port-item {
+    width: 30%;
+}
+
+#main-header .port-item .fa {
+    font-size: 2em;
+}
+
 .port-item {
     width: 30%;
 }
@@ -11,10 +24,6 @@
     cursor: pointer;
 }
 
-#projects {
-    width: 99%;
-}
-
 #gallery {
     min-height: 50rem;
     /* Can be removed; just added for demo purposes */
@@ -24,8 +33,7 @@
 
 .project-card {
     float: left;
-    width: 33.333%;
-    width: 100%;
+    min-width: 33.333%;
     height: 95%;
     padding: .75rem;
     margin-bottom: 2rem;
@@ -39,4 +47,10 @@
 .project-card-text {
     font-size: 85%;
     color: #333;
+}
+
+@media(min-width:1199px) {
+    .port-item {
+        padding: 3em !important;
+    }
 }

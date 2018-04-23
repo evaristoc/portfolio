@@ -1,0 +1,93 @@
+                   <div class="card-deck" style="color: #333;">
+
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Deep Learning</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Network Life</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Operations Mng't</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                    </div>
+                                </div>
+
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Recommenders</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pattern Discovery and IR</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Web Intelligence</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">DS Intro: Recommenders</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Cloudera</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Apache Spark</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">edX</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">MySQL DB Admin</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Oracle University</p>
+                                    </div>
+                                </div>
+
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Data Visualization</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Data Visualization</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                    </div>
+                                </div>
+                                <div class="card project-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Data Visualization</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                    </div>
+                                </div>
+                            </div>
