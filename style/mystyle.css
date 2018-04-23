@@ -11,7 +11,11 @@
     cursor: pointer;
 }
 
-.album {
+#projects {
+    width: 99%;
+}
+
+#gallery {
     min-height: 50rem;
     /* Can be removed; just added for demo purposes */
     padding-top: 3rem;
