@@ -1,0 +1,38 @@
+.port-item {
+    width: 30%;
+}
+
+.port-item.fa {
+    font-size: 2em;
+}
+
+.port-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.album {
+    min-height: 50rem;
+    /* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project-card {
+    float: left;
+    width: 33.333%;
+    width: 100%;
+    height: 95%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.project-card>img {
+    margin-bottom: .75rem;
+}
+
+.project-card-text {
+    font-size: 85%;
+    color: #333;
+}

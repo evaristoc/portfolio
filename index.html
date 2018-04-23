@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
     <link rel="shortcut icon" href="http://sstatic.net/so/favicon.ico">
+    <link rel="stylesheet" href="style/mystyle.css">
 
 
     <title>E Caraballo Portfolio Resume</title>
@@ -19,26 +20,189 @@
 <body>
     <div class="container">
         <header>
-            <div class="row">
-                <div class="col-lg-4.col-md-5"></div>
-                <div class="col-lg-8.col-md-7">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4 col-sm-5">
+                    <div style="height:100%; width:100%;">HELLO WORLD</div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-7">
                     <div class="d-flex flex-column">
                         <div class="p-5 bg-dark text-white">
                             <div class="myname d-flex flex-row justify-content-between align-items-center">
-                                <h1>Evaristo Caraballo</h1>
+                                <h1 class="display-4">E Caraballo</h1>
                                 <div><i class="fa fa-twitter"></i></div>
                                 <div><i class="fa fa-github"></i></div>
                                 <div><i class="fa fa-medium"></i></div>
+                            </div>
+                        </div>
+                        <div class="p-4 bg-black" style="background:#000;color:#fff;">Data and Programming are my hobbies..</div>
+                        <div>
+                            <div class="d-flex flex-row text-white text-center align-items-stretch">
+                                <div class="p-4 port-item bg-primary" data-toggle="collapse" data-target="#home">
+                                    <i class="fa fa-home d-block"></i>Home
+                                </div>
+                                <div class="p-4 port-item bg-success" data-toggle="collapse" data-target="#projects">
+                                    <i class="fa fa-folder-open d-block"></i>Projects
+                                </div>
+                                <div class="p-4 port-item bg-warning">
+                                    <i class="fa fa-pencil d-block"></i>Articles
+                                </div>
+                                <div class="p-4 port-item bg-danger" data-toggle="collapse" data-target="#courses">
+                                    <i class="fa fa-graduation-cap d-block"></i>Courses
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+        <!-- HOME -->
+        <div id="home" class="collapse show">
+            <div class="card card-body bg-dark text-white p-5">
+                <h2>Welcome!</h2>
+                <p class="lead">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                    in faucibus.</p>
+            </div>
+        </div>
+        <!-- PROJECTS -->
+        <div id="projects" class="collapse card card-body bg-dark text-white p-5">
+
+            <h2>Projects</h2>
+            <p class="lead">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+                in faucibus.</p>
+
+
+
+            <div id="album" class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="https://evaristoc.github.io/kaggle/hc_emails/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/hillary_emails.png" alt="Hillary's emails d3.js viz" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">A d3.js-based interactive chart using data from a <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle dataset</a>. A gh-page.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="https://bl.ocks.org/evaristoc/raw/d5531fb65c599370f777370e44f14242/" data-toggle="tooltip" data-placement="top" title="bl.ocks.org/evaristoc"><img src="img/beeswarm.png" alt="emoji beeswarm d3.js viz" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">One of two interactive charts prepared for an <a href="https://medium.freecodecamp.org/and-the-most-popular-developer-emoji-is-d660a9687be7">article about emoji</a> published in freeCodeCamp Medium. d3.js v4; in b.locks.org.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="https://jsbin.com/yoziqud/5/edit?output" data-toggle="tooltip" data-placement="top" title="jsbin.com"><img src="img/vizheatmap.png" alt="vizheatmap d3.js viz" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">An interactive d3.js chart used to complete a freeCodeCamp assignment as well as a <a href="https://www.coursera.org/learn/datavisualization">coursera visualization course</a>. In JSBin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="http://ziplinesfcc.herokuapp.com/" data-toggle="tooltip" data-placement="top" title="herokuapp.com"><img src="img/ziplinesfcc.png" alt="ziplinesfcc list" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">Listing around 2000 <a href="codepen.io">CodePen projects</a> from freeCodeCamp students; data scraped from CopePen (authorized); heroku-hosted, MEAN stack (Angular 1.x).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="https://evaristoc.github.io/fCC_R3c/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/fcc_recommender.png" alt="resource recommender" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">A recommender exercise. Recommends resources to learn web dev. Join project made in Angular 2 and Firebase hosted in gh-pages.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card project-card">
+                            <a href="https://evaristoc.github.io/foundjob/65-new-coders-that-found-jobs/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/profiles65authors.png" alt="profiling 65 new developers" style="width:250px;height:250px;"></a>
+                            <p class="card-text project-card-text">An interactive page to complement an <a href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e">article profiling successful new web developers</a> as
+                                well as testing acquisition/engagement. Join project; CSS, jQuery; gh-pages.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div id="courses" class="collapse container card card-body bg-dark text-white p-5">
+            <!-- Nav tabs -->
+            <div class="container">
+                <div class="row">
+                    <h2>COURSES</h2>
+                </div>
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menucourse1">Web Dev</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menucourse2">Web Analytics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menucourse3">Data Science</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tab panes -->
+            <!--https://codepen.io/aguko/pen/bdEzya-->
+            <div class="container">
+                <div class="row">
+                    <div class="tab-content">
+                        <div class="tab-pane active container" id="menucourse1">
+                            <br>
+                            <h3>Web Dev</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card-deck" style="color: #333;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">freeCodeCamp</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Udemy</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">PackPub</h4>
+                                        <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                        <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane container" id="menucourse2">
+                            <br>
+                            <h3>Web Analytics</h3>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="tab-pane container" id="menucourse3">
+                            <br>
+                            <h3>Data Science</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer id="main-footer" class="p-5 bg-dark text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud "></i>Download Resume</a>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/myjavascript.js"></script>
 </body>
 
 </html>
