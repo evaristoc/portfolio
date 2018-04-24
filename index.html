@@ -73,255 +73,338 @@
                 <p class="lead">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
                     in faucibus.</p>
             </div>
-            <div class="gallery container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="https://evaristoc.github.io/kaggle/hc_emails/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/hillary_emails.png" alt="Hillary's emails d3.js viz" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">A d3.js-based interactive chart using data from a <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle dataset</a>. A gh-page. Analyses in Python and R.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="https://bl.ocks.org/evaristoc/raw/d5531fb65c599370f777370e44f14242/" data-toggle="tooltip" data-placement="top" title="bl.ocks.org/evaristoc"><img src="img/beeswarm.png" alt="emoji beeswarm d3.js viz" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">One of two interactive charts prepared for an <a href="https://medium.freecodecamp.org/and-the-most-popular-developer-emoji-is-d660a9687be7">article about emoji</a> published in freeCodeCamp Medium. d3.js v4; in b.locks.org.
-                                Analyses in Python.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="https://jsbin.com/yoziqud/5/edit?output" data-toggle="tooltip" data-placement="top" title="jsbin.com"><img src="img/vizheatmap.png" alt="vizheatmap d3.js viz" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">An interactive d3.js chart used to complete a freeCodeCamp assignment as well as a <a href="https://www.coursera.org/learn/datavisualization">coursera visualization course</a>. In JSBin.</p>
-                        </div>
-                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menuprojects1">Blog Posts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menuprojects2">Viz & Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menuprojects3">Github</a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="tab-content">
+                    <!--BLOGS -->
+                    <div class="tab-pane active" id="menuprojects1">
+                        <br>
+                        <h3>Blog Posts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="card-deck" style="color: #333;">
+                            <div class="card project-card">
+                                <img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*QUPbzsIyIs3QLx6LjGlgPw.jpeg" alt="Github resources for web dev" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="medium.freecodecamp.org">
+                                <div class="card-body">
+                                    <h4 class="card-title">Repos for Web Dev</h4>
+                                    <p class="card-text">Some popular Github repositories mentioned in the (now defunct) freeCodeCamp main chatroom. Analyses in Python.</p>
+                                    <div class="text-center">
+                                        <a class="p-2 mb-3 bg-dark text-white" href="https://medium.freecodecamp.org/the-10-github-repos-people-mention-the-most-in-freecodecamps-main-chat-room-189750600fa4">See Post</a></div>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*2rK6gBMkTSyTEYZ6YHRrlQ.jpeg" alt="youtube resources for web dev" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="medium.freecodecamp.org">
+                                <div class="card-body">
+                                    <h4 class="card-title">Youtube for Web Dev</h4>
+                                    <p class="card-text">Some popular Youtube videos mentioned in the (now defunct) freeCodeCamp main chatroom. Analyses in Python.</p>
+                                    <div class="text-center">
+                                        <a class="p-2 mb-3 bg-dark text-white" href="https://medium.freecodecamp.org/the-12-youtube-videos-new-developers-mention-the-most-f2d1fce337ca">See Post</a></div>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*4HHWw6_I-DJ6Ov0FJZYpDg.jpeg" alt="65 new developers" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="medium.freecodecamp.org">
+                                <div class="card-body">
+                                    <h4 class="card-title">Profiling success</h4>
+                                    <p class="card-text">What 65 students new to coding did before getting jobs. Review of fCC Forum and Medium posts. Analyses in node.js, Python.</p>
+                                    <div class="text-center">
+                                        <a class="p-2 mb-3 bg-dark text-white" href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e">See Post</a></div>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <img class="card-img-top" src="https://cdn-images-1.medium.com/max/720/1*hedtt2vXUm0PogLrGkjDWA.png" alt="Gitter posts in Kaggle" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="kaggle.com/freecodecamp">
+                                <div class="card-body">
+                                    <h4 class="card-title">Gitter to Kaggle</h4>
+                                    <p class="card-text">Introduction to the freeCodeCamp main chatroom dataset in Kaggle. With Python. Featured on <a href="https://medium.freecodecamp.org/we-just-released-3-years-of-freecodecamp-chat-history-as-open-data-all-5-million-messages-of-it-a03901f4d6fb">Medium</a>.</p>
+                                    <div class="text-center">
+                                        <a class="p-2 mb-3 bg-dark text-white" href="https://www.kaggle.com/freecodecamp/who-does-quincy-larson-talk-to">See Post</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- VIZ&PAGES -->
+                    <div class="tab-pane" id="menuprojects2 ">
+                        <br>
+                        <h3>Blog Posts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="card-deck " style="color: #333; ">
+                            <div class="card ">
+                                <img class="card-img-top " src="img/hillary_emails.png " alt="Hillary 's emails d3.js viz" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hillary's emails Viz</h4>
+                                    <p class="card-text">A d3.js-based interactive chart using data from a <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle dataset</a>. A gh-page. Analyses in Python and R.</p>
+                                    <div class="text-center"><a class="p-2 mb-3 bg-dark text-white" href="https://evaristoc.github.io/kaggle/hc_emails/">See Project</a></div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Udemy</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">PackPub</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GITHUB -->
+                    <div class="tab-pane" id="menuprojects3">
+                        <br>
+                        <h3>Blog Posts</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="card-deck" style="color: #333;">
+                            <div class="card">
+                                <img class="card-img-top" src="img/hillary_emails.png" alt="Hillary's emails d3.js viz" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io">
+                                <div class="card-body">
+                                    <h4 class="card-title">Hillary's emails Viz</h4>
+                                    <p class="card-text">A d3.js-based interactive chart using data from a <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle dataset</a>. A gh-page. Analyses in Python and R.</p>
+                                    <div class="text-center"><a class="p-2 mb-3 bg-dark text-white" href="https://evaristoc.github.io/kaggle/hc_emails/">See Project</a></div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Udemy</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">PackPub</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- COURSES -->
+        <div id="courses" class="collapse">
+            <!-- Nav tabs -->
+
+            <div class="card card-body bg-dark text-white p-5">
+                <h2>COURSES</h2>
+            </div>
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="http://ziplinesfcc.herokuapp.com/" data-toggle="tooltip" data-placement="top" title="herokuapp.com"><img src="img/ziplinesfcc.png" alt="ziplinesfcc list" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">Listing around 2000 <a href="codepen.io">CodePen projects</a> from freeCodeCamp students; data scraped from CopePen (authorized); heroku-hosted, MEAN stack (Angular 1.x) and Python.
-                            </p>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#menucourse1">Web Dev</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menucourse2">Marketing&Web</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menucourse3">Data Science</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Tab panes -->
+            <!--https://codepen.io/aguko/pen/bdEzya-->
+
+            <div class="row">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="menucourse1">
+                        <br>
+                        <h3>Web Dev</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="card-deck" style="color: #333;">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">freeCodeCamp</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Udemy</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">PackPub</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">certificates</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="https://evaristoc.github.io/fCC_R3c/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/fcc_recommender.png" alt="resource recommender" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">A recommender exercise. Recommends resources to learn web dev. Join project made in Angular 2 and Firebase. Hosted in gh-pages. Analyses in Python (see repository).</p>
+                    <div class="tab-pane" id="menucourse2">
+                        <br>
+                        <h3>Marketing- and Web Analytics</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="card-deck" style="color: #333;">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Web Analytics</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Conversion</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Marketing Analytics with R</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Revolution Analytics</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">PPC</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card project-card">
-                            <a href="https://evaristoc.github.io/foundjob/65-new-coders-that-found-jobs/" data-toggle="tooltip" data-placement="top" title="evaristoc.github.io"><img src="img/profiles65authors.png" alt="profiling 65 new developers" style="width:250px;height:250px;"></a>
-                            <p class="card-text project-card-text">An interactive page to complement an <a href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e">article profiling successful new web developers</a> as
-                                well as testing acquisition/engagement. Join project; CSS, jQuery. In gh-pages. Analyses in Python.</p>
+                    <div class="tab-pane" id="menucourse3">
+                        <br>
+                        <h3>Data Science</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <div class="card-deck" style="color: #333;">
+
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Deep Learning</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Network Life</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Operations Mng't</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                </div>
+                            </div>
+
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Recommenders</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pattern Discovery and IR</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Web Intelligence</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
+                                </div>
+                            </div>
+
+
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">DS Intro: Recommenders</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Cloudera</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Apache Spark</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">edX</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">MySQL DB Admin</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Oracle University</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Data Visualization</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Data Visualization</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                </div>
+                            </div>
+                            <div class="card project-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Data Visualization</h4>
+                                    <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    <!-- COURSES -->
-    <div id="courses" class="collapse">
-        <!-- Nav tabs -->
-
-        <div class="card card-body bg-dark text-white p-5">
-            <h2>COURSES</h2>
-        </div>
-        <div>
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#menucourse1">Web Dev</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menucourse2">Marketing&Web</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menucourse3">Data Science</a>
-                </li>
-            </ul>
-        </div>
 
 
-        <!-- Tab panes -->
-        <!--https://codepen.io/aguko/pen/bdEzya-->
-
-        <div class="row">
-            <div class="tab-content">
-                <div class="tab-pane active" id="menucourse1">
-                    <br>
-                    <h3>Web Dev</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="card-deck" style="color: #333;">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">freeCodeCamp</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">certificates</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Udemy</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">certificates</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">PackPub</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">certificates</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="menucourse2">
-                    <br>
-                    <h3>Marketing- and Web Analytics</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div class="card-deck" style="color: #333;">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Web Analytics</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Conversion</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Marketing Analytics with R</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Revolution Analytics</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">PPC</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane" id="menucourse3">
-                    <br>
-                    <h3>Data Science</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    <div class="card-deck" style="color: #333;">
-
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Deep Learning</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Network Life</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Operations Mng't</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-                            </div>
-                        </div>
-
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Recommenders</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Pattern Discovery and IR</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Web Intelligence</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Coursera</p>
-                            </div>
-                        </div>
-
-
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">DS Intro: Recommenders</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Cloudera</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Apache Spark</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">edX</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">MySQL DB Admin</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Oracle University</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Data Visualization</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Data Visualization</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
-                            </div>
-                        </div>
-                        <div class="card project-card">
-                            <div class="card-body">
-                                <h4 class="card-title">Data Visualization</h4>
-                                <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p class="p-2 mb-3 bg-dark text-white">Udacity</p>
-                            </div>
-                        </div>
-
-                    </div>
+        <!-- FOOTER -->
+        <footer id="main-footer" class="p-5 bg-dark text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud "></i>Download Resume</a>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="p-5 bg-dark text-white">
-        <div class="row">
-            <div class="col-md-6">
-                <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud "></i>Download Resume</a>
-            </div>
-        </div>
-    </footer>
+        </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
