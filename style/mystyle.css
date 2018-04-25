@@ -40,8 +40,13 @@
     border: 0;
 }
 
-.project-card>img {
+.project-card>a img {
     margin-bottom: .75rem;
+}
+
+.project-card a>img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .project-card-text {
