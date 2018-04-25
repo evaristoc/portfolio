@@ -34,7 +34,7 @@
 .project-card {
     float: left;
     min-width: 33.333%;
-    max-width: 50%;
+    /*max-width: 50%;*/
     padding: .75rem;
     margin-bottom: 2rem;
     border: 0;
@@ -53,10 +53,19 @@
     .port-item {
         padding: 3em !important;
     }
+    .project-card {
+        max-width: 50%;
+    }
 }
 
 @media(max-width:600px) {
     .nav-tabs {
         font-size: 80% !important;
+    }
+}
+
+@media(max-height:350px) {
+    .project-card {
+        height: 50%;
     }
 }
