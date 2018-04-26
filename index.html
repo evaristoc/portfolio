@@ -20,22 +20,22 @@
 
 <body>
     <div class="container">
-        <header>
+        <header id="main-header">
             <div class="row no-gutters">
                 <div class="col-lg-4 col-md-5">
-                    <img style="height:100%; width:100%;" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/21959_100152796686863_6106227_n.jpg?_nc_cat=0&oh=08fe2650c2cdaa395a7bc581ab4566ee&oe=5B69BEEC">
+                    <img src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/21959_100152796686863_6106227_n.jpg?_nc_cat=0&oh=08fe2650c2cdaa395a7bc581ab4566ee&oe=5B69BEEC">
                 </div>
                 <div class="col-lg-8 col-md-7">
                     <div class="d-flex flex-column">
                         <div class="p-5 bg-dark text-white">
                             <div class="myname d-flex flex-row justify-content-between align-items-center">
-                                <h1 class="display-4">E Caraballo</h1>
-                                <div><i class="fa fa-twitter"></i></div>
-                                <div><i class="fa fa-github"></i></div>
-                                <div><i class="fa fa-medium"></i></div>
+                                <h1 class="myname display-4">E Caraballo</h1>
+                                <div><a href="https://twitter.com/ecccs_fcc"><i class="fa fa-twitter"></i></a></div>
+                                <div><a href="https://medium.com/@ecccs_FCC/"><i class="fa fa-medium"></i></a></div>
+                                <div><a href="https://github.com/evaristoc"><i class="fa fa-github"></i></a></div>
                             </div>
                         </div>
-                        <div class="p-4 bg-black" style="background:#000;color:#fff;">Data and Programming are my hobbies..</div>
+                        <div class="p-4 bg-black" style="background:#000;color:#fff;">Data and Programming are my hobbies...</div>
                         <div>
                             <div class="d-flex flex-row text-white text-center align-items-stretch">
                                 <div class="p-4 port-item bg-primary" data-toggle="collapse" data-target="#home">
@@ -47,7 +47,7 @@
                                 <div class="p-4 port-item bg-danger" data-toggle="collapse" data-target="#courses">
                                     <i class="fa fa-graduation-cap d-block"></i>Courses
                                 </div>
-                                <div class="p-4 port-item bg-warning">
+                                <div class="p-4 port-item bg-warning" data-toggle="collapse" data-target="#contact">
                                     <i class="fa fa-pencil d-block"></i>Contact
                                 </div>
                             </div>
@@ -59,9 +59,8 @@
         <!-- HOME -->
         <div id="home" class="collapse show">
             <div class="card card-body bg-dark text-white p-5">
-                <h2>Welcome!</h2>
-                <p class="lead">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
-                    in faucibus.</p>
+                <h2>WELCOME</h2>
+                <p class="lead">I am passionate about discovering things in social data, and developing products and content that serve the online community.</p>
             </div>
         </div>
 
@@ -70,7 +69,7 @@
         <div id="projects" class="collapse">
             <div class="card card-body bg-dark text-white p-5">
                 <h2>PROJECTS</h2>
-                <p class="lead">The majority of my projects have been about learning how people behave in social platforms in order to develop products that could help those users as well as the organizations that serve them.</p>
+                <p class="lead">The majority of my projects have been about learning how users behave in social platforms in order to develop products that could help those users as well as the organizations that serve them.</p>
             </div>
             <div class="container">
                 <div class="row">
@@ -97,7 +96,8 @@
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
                         <div class="card-deck" style="color: #333;">
                             <div class="card project-card">
-                                <a href="https://medium.freecodecamp.org/the-10-github-repos-people-mention-the-most-in-freecodecamps-main-chat-room-189750600fa4"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*QUPbzsIyIs3QLx6LjGlgPw.jpeg" alt="Github resources for web dev" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <a href="https://medium.freecodecamp.org/the-10-github-repos-people-mention-the-most-in-freecodecamps-main-chat-room-189750600fa4"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*QUPbzsIyIs3QLx6LjGlgPw.jpeg" alt="Github resources for web dev" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <!--<img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*QUPbzsIyIs3QLx6LjGlgPw.jpeg" alt="Github resources for web dev" data-toggle="tooltip" data-placement="top" title="See post at Medium">-->
                                 <div class="card-body">
                                     <h4 class="card-title">Repos for Web Dev</h4>
                                     <p class="card-text">Some popular Github repositories mentioned in the (now defunct) freeCodeCamp main chatroom. Analyses in Python.</p>
@@ -106,7 +106,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://medium.freecodecamp.org/the-12-youtube-videos-new-developers-mention-the-most-f2d1fce337ca"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*2rK6gBMkTSyTEYZ6YHRrlQ.jpeg" alt="youtube resources for web dev" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <a href="https://medium.freecodecamp.org/the-12-youtube-videos-new-developers-mention-the-most-f2d1fce337ca"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*2rK6gBMkTSyTEYZ6YHRrlQ.jpeg" alt="youtube resources for web dev" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Youtube for Web Dev</h4>
                                     <p class="card-text">Some popular Youtube videos mentioned in the (now defunct) freeCodeCamp main chatroom. Analyses in Python.</p>
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*4HHWw6_I-DJ6Ov0FJZYpDg.jpeg" alt="65 new developers" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <a href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*4HHWw6_I-DJ6Ov0FJZYpDg.jpeg" alt="65 new developers" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Profiling success</h4>
                                     <p class="card-text">What 65 students new to coding did before getting jobs. Review of fCC Forum and Medium posts. Analyses in node.js, Python.</p>
@@ -124,7 +124,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://medium.freecodecamp.org/and-the-most-popular-developer-emoji-is-d660a9687be7"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1260/1*qrUlRyBsjD_omrzaazBquQ.png" alt="Emoji in a chatroom" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <a href="https://medium.freecodecamp.org/and-the-most-popular-developer-emoji-is-d660a9687be7"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1260/1*qrUlRyBsjD_omrzaazBquQ.png" alt="Emoji in a chatroom" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Emoji in Chat</h4>
                                     <p class="card-text">How learners used emoji in the (now defunct) freeCodeCamp main chatroom. Analyses in Python and d3.js.</p>
@@ -133,17 +133,16 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://medium.freecodecamp.org/english-size-connectivity-and-campsites-factors-driving-the-use-of-free-code-camp-worldwide-3c9d4e2b8c17"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*wOQNiJVfv1weV_KLotsnyA.jpeg" alt="Factors affecting e-learning" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Medium">
-                                    <div class="card-body">
-                                </a>
-                                <h4 class="card-title">e-Learning barriers</h4>
-                                <p class="card-text">Identifying some demographic factors affecting e-learning. Analyses in Google Analytics, Excel, d3.js and combined sources.</p>
-                                <div class="text-center">
-                                    <a class="p-2 mb-3 bg-dark text-white" href="https://medium.freecodecamp.org/english-size-connectivity-and-campsites-factors-driving-the-use-of-free-code-camp-worldwide-3c9d4e2b8c17">See Post</a></div>
+                                <a href="https://medium.freecodecamp.org/english-size-connectivity-and-campsites-factors-driving-the-use-of-free-code-camp-worldwide-3c9d4e2b8c17"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/1800/1*wOQNiJVfv1weV_KLotsnyA.jpeg" alt="Factors affecting e-learning" data-toggle="tooltip" data-placement="top" title="See post at Medium"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">e-Learning barriers</h4>
+                                    <p class="card-text">Identifying some demographic factors affecting e-learning. Analyses in Google Analytics, Excel, d3.js and combined sources.</p>
+                                    <div class="text-center">
+                                        <a class="p-2 mb-3 bg-dark text-white" href="https://medium.freecodecamp.org/english-size-connectivity-and-campsites-factors-driving-the-use-of-free-code-camp-worldwide-3c9d4e2b8c17">See Post</a></div>
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://www.kaggle.com/freecodecamp/who-does-quincy-larson-talk-to"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/720/1*hedtt2vXUm0PogLrGkjDWA.png" alt="Gitter posts in Kaggle" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Kaggle"></a>
+                                <a href="https://www.kaggle.com/freecodecamp/who-does-quincy-larson-talk-to"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/720/1*hedtt2vXUm0PogLrGkjDWA.png" alt="Gitter posts in Kaggle" data-toggle="tooltip" data-placement="top" title="See post at Kaggle"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Gitter to Kaggle</h4>
                                     <p class="card-text">Introducing the freeCodeCamp main chatroom dataset in Kaggle. With Python. Featured on <a href="https://medium.freecodecamp.org/we-just-released-3-years-of-freecodecamp-chat-history-as-open-data-all-5-million-messages-of-it-a03901f4d6fb">Medium article</a>.</p>
@@ -152,7 +151,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://www.linkedin.com/pulse/simulations-technology-advance-research-design-evaristo-caraballo"><img class="card-img-top" src="img/dummy_article_linkedin.png" alt="Online Panel simulation" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See post at Linkedin Pulse"></a>
+                                <a href="https://www.linkedin.com/pulse/simulations-technology-advance-research-design-evaristo-caraballo"><img class="card-img-top" src="img/dummy_article_linkedin.png" alt="Online Panel simulation" data-toggle="tooltip" data-placement="top" title="See post at Linkedin Pulse"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Simulating Panels</h4>
                                     <p class="card-text">Linkedin's Pulse article over simulations for <i><a href="https://en.wikipedia.org/wiki/Online_panel">online panels'</a></i> operations and automation. Also <a href="https://www.slideshare.net/evaristoc">in Slideshare</a>.</p>
@@ -172,7 +171,7 @@
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
                         <div class="card-deck " style="color: #333;">
                             <div class="card project-card">
-                                <a href="http://ziplinesfcc.herokuapp.com/"><img class="card-img-top" src="img/ziplinesfcc.png" alt="CodePen freeCodeCamp project lists" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See project on Heroku"></a>
+                                <a href="http://ziplinesfcc.herokuapp.com/"><img class="card-img-top" src="img/ziplinesfcc.png" alt="CodePen freeCodeCamp project lists" data-toggle="tooltip" data-placement="top" title="See project on Heroku"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">CodePen Lists</h4>
                                     <p class="card-text">2000 <a href="https://codepen.io/search/pens?q=freecodecamp">CodePen projects</a> from freeCodeCamp students; scraped from CopePen (authorized); heroku-hosted, MEAN stack (Angular 1.x) and Python. 2016.</p>
@@ -181,7 +180,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://evaristoc.github.io/fCC_R3c/"><img class="card-img-top" src="img/fcc_recommender.png" alt="Web Dev recommender" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See project on github.io"></a>
+                                <a href="https://evaristoc.github.io/fCC_R3c/"><img class="card-img-top" src="img/fcc_recommender.png" alt="Web Dev recommender" data-toggle="tooltip" data-placement="top" title="See project on github.io"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Recommender</h4>
                                     <p class="card-text">Proof of Concept recommending resources to learn web dev. Join project made in Angular 2 and Firebase. Hosted in gh-pages. Analyses in Python (see repository). 2017.</p>
@@ -190,7 +189,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://evaristoc.github.io/foundjob/65-new-coders-that-found-jobs/"><img class="card-img-top" src="img/profiles65authors.png" alt="Profiling new coders" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See project on github.io"></a>
+                                <a href="https://evaristoc.github.io/foundjob/65-new-coders-that-found-jobs/"><img class="card-img-top" src="img/profiles65authors.png" alt="Profiling new coders" data-toggle="tooltip" data-placement="top" title="See project on github.io"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Successful Coder</h4>
                                     <p class="card-text">Interactive page to complement an <a href="https://medium.freecodecamp.org/how-65-new-developers-with-no-previous-coding-experience-got-their-first-jobs-103846ba640e">article profiling successful new web developers</a>                                        as well as testing acquisition/engagement. Join project; CSS, jQuery. In gh-pages. Analyses in Python. 2018.</p>
@@ -199,7 +198,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://evaristoc.github.io/kaggle/hc_emails/"><img class="card-img-top" src="img/hillary_emails.png" alt="Hillary's emails'" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See viz in github.io"></a>
+                                <a href="https://evaristoc.github.io/kaggle/hc_emails/"><img class="card-img-top" src="img/hillary_emails.png" alt="Hillary's emails'" data-toggle="tooltip" data-placement="top" title="See viz in github.io"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Hillary's emails</h4>
                                     <p class="card-text">A d3.js-based interactive chart using data from a <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle dataset</a>. In gh-pages. Analyses in Python and R. 2015.</p>
@@ -208,7 +207,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="http://bl.ocks.org/evaristoc/663eca9722c37bd7c0d254edfb0c9d00"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*lOG3xjsJe6MWRThFDdt-og.png" alt="Emoji Billboard" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See viz in bl.ocks.org"></a>
+                                <a href="http://bl.ocks.org/evaristoc/663eca9722c37bd7c0d254edfb0c9d00"><img class="card-img-top" src="https://cdn-images-1.medium.com/max/900/1*lOG3xjsJe6MWRThFDdt-og.png" alt="Emoji Billboard" data-toggle="tooltip" data-placement="top" title="See viz in bl.ocks.org"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Emoji Billboard</h4>
                                     <p class="card-text">One of two interactive charts prepared for an <a href="https://medium.freecodecamp.org/and-the-most-popular-developer-emoji-is-d660a9687be7">article about emoji</a> published in freeCodeCamp Medium. d3.js v4; in b.locks.org.
@@ -218,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="card project-card">
-                                <a href="https://jsbin.com/yoziqud/5/edit?output"><img class="card-img-top" src="img/vizheatmap.png" alt="Climate Change" style="width:100%;height:50%;" data-toggle="tooltip" data-placement="top" title="See viz in JSBin"></a>
+                                <a href="https://jsbin.com/yoziqud/5/edit?output"><img class="card-img-top" src="img/vizheatmap.png" alt="Climate Change" data-toggle="tooltip" data-placement="top" title="See viz in JSBin"></a>
                                 <div class="card-body">
                                     <h4 class="card-title">Climate Change</h4>
                                     <p class="card-text">An interactive d3.js chart made as an assignment for <a href="https://www.coursera.org/learn/datavisualization">coursera visualization course</a>. In JSBin. 2017.</p>
@@ -290,8 +289,7 @@
 
             <div class="card card-body bg-dark text-white p-5">
                 <h2>COURSES</h2>
-                <p class="lead">The majority of my courses focus on web development and internet in combination with analytics training that help me to understand the virtual society. I look for resources that allow me to create products for the web as well as let me
-                    understand online interactions better.</p>
+                <p class="lead">I usually look for training either on things that help me to understand the virtual society, improving the data engineering or resources that allow me to create better products for the social web.</p>
 
             </div>
             <div class="container">
@@ -321,21 +319,21 @@
                         <h3>Web Dev</h3>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
                         <div class="card-deck" style="color: #333;">
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">freeCodeCamp</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
                                     <p class="p-2 mb-3 bg-dark text-white">certificates</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">Udemy</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
                                     <p class="p-2 mb-3 bg-dark text-white">certificates</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">PackPub</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
@@ -349,28 +347,28 @@
                         <h3>Marketing- and Web Analytics</h3>
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
                         <div class="card-deck" style="color: #333;">
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">Web Analytics</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
                                     <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">Conversion</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
                                     <p class="p-2 mb-3 bg-dark text-white">Market Motive</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">Marketing Analytics with R</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
                                     <p class="p-2 mb-3 bg-dark text-white">Revolution Analytics</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="card-body">
                                     <h4 class="card-title">PPC</h4>
                                     <p class="card-text">consectetur adipisicing elit, sed do eiusmod tempor</p>
@@ -480,14 +478,26 @@
                 </div>
             </div>
         </div>
+        <!-- COURSES -->
+        <div id="contact" class="collapse">
+            <!-- Nav tabs -->
 
+            <div class="card card-body bg-dark text-white p-5">
+                <h2>CONTACT</h2>
+                <div class="lead">
+                    <p>When I am not in the <a href="https://gitter.im/FreeCodeCamp/DataScience">DataScience room</a>, I am in the <a href="https://forum.freecodecamp.org/">Forum</a>, checking my Twitter, working on a project, or studying new subjects.</p>
+                    <p>Please contact me through my email if you want to know more</p>
+                    <p><span><i class="fa fa-envelope"></i></span> <strong>VARIKVI@YAHOO.COM</strong></p>
+                </div>
+            </div>
+        </div>
 
 
         <!-- FOOTER -->
         <footer id="main-footer" class="p-5 bg-dark text-white">
             <div class="row">
                 <div class="col-md-6">
-                    <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud "></i>Download Resume</a>
+                    <a href="https://nl.linkedin.com/in/evaristocaraballo" class="btn btn-outline-light"><i class="fa fa-linkedin"></i> My Resume</a>
                 </div>
             </div>
         </footer>
