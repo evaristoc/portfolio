@@ -3,3 +3,10 @@ $('.port-item').click(function() {
 })
 
 $('[data-toggle="tooltip"]').tooltip();
+
+$(function() {
+    $('.port-item').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this)).offset().top }, 500, 'linear');
+    });
+});
