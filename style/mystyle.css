@@ -1,22 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #main-header img {
     width: 100%;
     height: 100%;
 }
 
-#main-header .port-item {
-    width: 30%;
-}
 
-#main-header .port-item .fa {
-    font-size: 2em;
-}
 
 .port-item {
-    width: 30%;
+    /*width: 25%;*/
 }
 
-.port-item.fa {
-    font-size: 2em;
+.port-item .fa {
+    font-size: 2rem;
 }
 
 .port-item:hover {
@@ -102,6 +101,10 @@ img {
     .nav-tabs {
         font-weight: bold;
         font-size: 80% !important;
+    }
+    
+    #home{
+        font-size:.25rem;
     }
 }
 
