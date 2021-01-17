@@ -43,6 +43,10 @@
     cursor: pointer;
 }
 
+.nav-tabs{
+    z-index:9999;
+}
+
 #gallery {
     min-height: 50rem;
     /* Can be removed; just added for demo purposes */
@@ -70,6 +74,10 @@ img {
     max-width: 100%;
     height: auto;
     width: 100%;
+}
+
+#email{
+    font-size:.8rem;
 }
 
 @-moz-document url-prefix() {
@@ -117,10 +125,10 @@ img {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:380px) {
     .nav-tabs {
         font-weight: bold;
-        font-size: 80% !important;
+        font-size: calc(3vw) !important;
     }
     
     #home{
